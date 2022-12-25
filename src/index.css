@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.active{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.hoverable:hover{
+  border: 5px solid rgb(39, 74, 170);
+  background: rgba(0, 0, 0, 0.064);
+  color: gold;
+  transition: all .1s linear;
+}
+a{
+  text-decoration: none;
+  /* font-style: none; */
+}
